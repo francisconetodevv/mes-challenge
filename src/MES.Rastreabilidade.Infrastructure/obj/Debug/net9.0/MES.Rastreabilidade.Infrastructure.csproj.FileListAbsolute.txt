@@ -1,0 +1,17 @@
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\bin\Debug\net9.0\MES.Rastreabilidade.Infrastructure.deps.json
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\bin\Debug\net9.0\MES.Rastreabilidade.Infrastructure.runtimeconfig.json
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\bin\Debug\net9.0\MES.Rastreabilidade.Infrastructure.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\bin\Debug\net9.0\MES.Rastreabilidade.Infrastructure.pdb
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\bin\Debug\net9.0\MES.Rastreabilidade.Core.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\bin\Debug\net9.0\MES.Rastreabilidade.Core.pdb
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.AssemblyInfo.cs
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rast.3DC223BD.Up2Date
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\refint\MES.Rastreabilidade.Infrastructure.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.pdb
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.genruntimeconfig.cache
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\ref\MES.Rastreabilidade.Infrastructure.dll

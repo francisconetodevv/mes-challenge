@@ -1,0 +1,11 @@
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\bin\Debug\net9.0\MES.Rastreabilidade.Core.deps.json
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\bin\Debug\net9.0\MES.Rastreabilidade.Core.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\bin\Debug\net9.0\MES.Rastreabilidade.Core.pdb
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.AssemblyInfo.cs
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\refint\MES.Rastreabilidade.Core.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.pdb
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\ref\MES.Rastreabilidade.Core.dll

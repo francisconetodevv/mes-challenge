@@ -1,0 +1,6 @@
+@MES.Rastreabilidade.Api_HostAddress = http://localhost:5293
+
+GET {{MES.Rastreabilidade.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
