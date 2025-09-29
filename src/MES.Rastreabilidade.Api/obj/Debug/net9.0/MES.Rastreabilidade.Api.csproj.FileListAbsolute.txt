@@ -167,3 +167,4 @@ C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Api\obj\Debug\net9.0\MES.Rastreabilidade.Api.sourcelink.json
