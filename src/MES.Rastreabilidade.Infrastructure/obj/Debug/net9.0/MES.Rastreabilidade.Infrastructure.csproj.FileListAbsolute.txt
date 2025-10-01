@@ -15,3 +15,4 @@ C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.pdb
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.genruntimeconfig.cache
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\ref\MES.Rastreabilidade.Infrastructure.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Infrastructure\obj\Debug\net9.0\MES.Rastreabilidade.Infrastructure.sourcelink.json

@@ -13,7 +13,24 @@ namespace MES.Rastreabilidade.Infrastructure.Data
         {
 
         }
-        
+
         public DbSet<Produto> Produtos { get; set; }
+        public DbSet<ProductionOrder> ProductionOrders { get; set; }
+
+        // --- ADICIONE ESTE MÉTODO ---
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder); // É uma boa prática chamar a implementação base
+
+            modelBuilder.Entity<ProductionOrder>(order =>
+            {
+                // Configura a relação: Uma Ordem de Produção (ProductionOrder) TEM UM Produto.
+                order.HasOne(o => o.Produto)
+                     // Um Produto TEM MUITAS Ordens de Produção.
+                     .WithMany() // Se a entidade Produto tivesse uma lista de ordens, seria .WithMany(p => p.OrdensDeProducao)
+                     // A chave estrangeira na tabela de ProductionOrder é a propriedade ProdutoId.
+                     .HasForeignKey(o => o.ProductId);
+            });
+        }
     }
 }

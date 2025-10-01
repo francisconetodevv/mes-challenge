@@ -9,3 +9,4 @@ C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\refint\MES.Rastreabilidade.Core.dll
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.pdb
 C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\ref\MES.Rastreabilidade.Core.dll
+C:\Users\PC\Documents\Francisco\Dev\C#\10. Manufacturing\src\MES.Rastreabilidade.Core\obj\Debug\net9.0\MES.Rastreabilidade.Core.sourcelink.json
