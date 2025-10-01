@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MES.Rastreabilidade.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+403baf8cb71c327b9c5ad9828132e68c5d487425")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3a8f4a7184f190c3e0a85e7540508e0554b7173")]
 [assembly: System.Reflection.AssemblyProductAttribute("MES.Rastreabilidade.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MES.Rastreabilidade.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
