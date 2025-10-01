@@ -50,19 +50,45 @@ namespace MES.Rastreabilidade.Api.Controllers
         [HttpGet("Produto")]
         public IActionResult GetProduct()
         {
+            var productsDB = _context.Produtos.ToList();
 
+            return Ok(productsDB);
         }
 
         [HttpPut("Produto/{id}")]
-        public IActionResult PutProduct()
+        public IActionResult PutProduct(int id, Produto produto)
         {
+            var productDB = _context.Produtos.Find(id);
 
+            if (productDB == null)
+            {
+                return NotFound();
+            }
+
+            productDB.Code = produto.Code;
+            productDB.Name = produto.Name;
+
+            _context.Produtos.Update(productDB);
+            _context.SaveChanges();
+
+            return Ok(productDB);
         }
 
-        [HttpDelete("Produto/]{id}")]
-        public IActionResult DeleteProduct()
+        [HttpDelete("Produto/{id}")]
+        public IActionResult DeleteProduct(int id)
         {
-            
+            var productDB = _context.Produtos.Find(id);
+
+            if (productDB == null)
+            {
+                return NotFound();
+            }
+
+            _context.Produtos.Remove(productDB);
+            _context.SaveChanges();
+
+            return NoContent();
+
         }
 
     }
