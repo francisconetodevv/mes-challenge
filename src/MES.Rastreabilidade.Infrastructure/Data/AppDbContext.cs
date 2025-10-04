@@ -17,6 +17,8 @@ namespace MES.Rastreabilidade.Infrastructure.Data
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<ProductionOrder> ProductionOrders { get; set; }
         public DbSet<Batch> Batches { get; set; }
+        public DbSet<EtapaDoProcesso> EtapasDoProcessos { get; set; }
+        public DbSet<RegistroDeEtapa> RegistroDeEtapas { get; set; }
 
         // --- ADICIONE ESTE MÉTODO ---
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -41,6 +43,17 @@ namespace MES.Rastreabilidade.Infrastructure.Data
 
                 batch.Property(b => b.QtyProduced)
                      .HasColumnType("decimal(18,4)");
+            });
+
+            modelBuilder.Entity<RegistroDeEtapa>(registro =>
+            {
+                registro.HasOne(r => r.Batch)
+                        .WithMany()
+                        .HasForeignKey(r => r.BatchId);
+
+                registro.HasOne(r => r.EtapaDoProcesso)
+                        .WithMany()
+                        .HasForeignKey(r => r.EtapaDoProcessoId);
             });
         }
     }
