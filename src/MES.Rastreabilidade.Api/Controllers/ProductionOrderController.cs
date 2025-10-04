@@ -39,6 +39,41 @@ namespace MES.Rastreabilidade.Api.Controllers
             return Ok(newOrder);
         }
 
+        [HttpPost("{orderId}/start-batch")]
+        public IActionResult PostProductionOrderStartBatch(int orderId)
+        {
+            var productionOrder = _context.ProductionOrders.Find(orderId);
+
+            if (productionOrder == null)
+            {
+                return NotFound("Ordem de produção não encontrada.");
+            }
+
+            if (productionOrder.Status != Core.Enums.ProductionOrderStatus.Planned)
+            {
+                return BadRequest($"A ordem {productionOrder.OrderCode} já foi iniciada ou está finalizada e não pode iniciar um novo lote.");
+            }
+
+            productionOrder.Status = Core.Enums.ProductionOrderStatus.OnGoing;
+
+            var newBatch = new Batch
+            {
+                BatchCode = GenerateBatchCode(productionOrder),
+                Status = Core.Enums.BatchStatus.InProgress,
+                DateInitial = DateTime.UtcNow,
+                ProductionOrderId  = productionOrder.Id,
+            };
+
+            _context.Batches.Add(newBatch);
+            _context.SaveChanges();
+
+            return Ok(newBatch);
+        }
+
+        private string GenerateBatchCode(ProductionOrder order) {
+            return $"L-{DateTime.UtcNow:yyyyMMdd}-{order.OrderCode}";
+        }
+
         [HttpGet("ProductionOrder/{id}")]
         public IActionResult GetProductionOrderById(int id)
         {

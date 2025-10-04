@@ -16,6 +16,7 @@ namespace MES.Rastreabilidade.Infrastructure.Data
 
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<ProductionOrder> ProductionOrders { get; set; }
+        public DbSet<Batch> Batches { get; set; }
 
         // --- ADICIONE ESTE MÉTODO ---
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -28,8 +29,18 @@ namespace MES.Rastreabilidade.Infrastructure.Data
                 order.HasOne(o => o.Produto)
                      // Um Produto TEM MUITAS Ordens de Produção.
                      .WithMany() // Se a entidade Produto tivesse uma lista de ordens, seria .WithMany(p => p.OrdensDeProducao)
-                     // A chave estrangeira na tabela de ProductionOrder é a propriedade ProdutoId.
+                                 // A chave estrangeira na tabela de ProductionOrder é a propriedade ProdutoId.
                      .HasForeignKey(o => o.ProductId);
+            });
+
+            modelBuilder.Entity<Batch>(batch =>
+            {
+                batch.HasOne(b => b.ProductionOrder)
+                     .WithMany()
+                     .HasForeignKey(b => b.ProductionOrderId);
+
+                batch.Property(b => b.QtyProduced)
+                     .HasColumnType("decimal(18,4)");
             });
         }
     }
