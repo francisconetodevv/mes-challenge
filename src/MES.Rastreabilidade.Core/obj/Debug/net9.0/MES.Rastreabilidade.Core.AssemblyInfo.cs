@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MES.Rastreabilidade.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4288406695e88900870a5a714783d3407057f44b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f60035e3e0523aa05b14e7f3422f1e06358e0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MES.Rastreabilidade.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MES.Rastreabilidade.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

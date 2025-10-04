@@ -6,7 +6,7 @@ using MES.Rastreabilidade.Core.Enums;
 
 namespace MES.Rastreabilidade.Core.Entities
 {
-    public class ProductionOrder
+    public class ProductionOrder 
     {
         public int Id { get; set; }
         public required string OrderCode { get; set; }
