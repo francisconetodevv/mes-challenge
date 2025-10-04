@@ -8,7 +8,7 @@ namespace MES.Rastreabilidade.Core.Entities
 {
     public class Batch
     {
-        public required int Id { get; set; }
+        public int Id { get; set; }
         public required string BatchCode { get; set; }
         public decimal? QtyProduced { get; set; }
         public BatchStatus Status { get; set; }
