@@ -14,9 +14,8 @@ namespace MES.Rastreabilidade.Core.Entities
         public BatchStatus Status { get; set; }
         public DateTime DateInitial { get; set; }
         public DateTime? DateFinal { get; set; }
-
-        // Relation with ProductionOrder
         public int ProductionOrderId { get; set; }
         public ProductionOrder ProductionOrder { get; set; } = null!;
+        public ICollection<RegistroDeEtapa> RegistroDeEtapas { get; set; } = new List<RegistroDeEtapa>();
     }
 }

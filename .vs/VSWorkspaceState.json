@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\MES.Rastreabilidade.Api",
+    "\\src\\MES.Rastreabilidade.Core",
+    "\\src\\MES.Rastreabilidade.Core\\Entities",
+    "\\src\\MES.Rastreabilidade.Infrastructure",
+    "\\src\\MES.Rastreabilidade.Infrastructure\\Data"
+  ],
+  "SelectedNode": "\\src\\MES.Rastreabilidade.Api\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -48,7 +48,7 @@ namespace MES.Rastreabilidade.Infrastructure.Data
             modelBuilder.Entity<RegistroDeEtapa>(registro =>
             {
                 registro.HasOne(r => r.Batch)
-                        .WithMany()
+                        .WithMany(b => b.RegistroDeEtapas)
                         .HasForeignKey(r => r.BatchId);
 
                 registro.HasOne(r => r.EtapaDoProcesso)
