@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MES.Rastreabilidade.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c89762ac0e8e4c9fa198836c76d15201fa70b69c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c37deeb6f85de106fb12f9ab8034ec3484c8956b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MES.Rastreabilidade.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MES.Rastreabilidade.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
